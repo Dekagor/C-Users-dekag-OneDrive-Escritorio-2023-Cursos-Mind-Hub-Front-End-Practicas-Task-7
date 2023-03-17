@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(236, 234, 234);
+}
+
+nav {
+    height: 65px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf7ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.nav-logo {
+    margin-right:550px;
+}
+
+.nav-link {
+    display: flex;
+    font-size: 14px;
+    color: rgb(142, 128, 128);
+    text-transform: uppercase;
+}
+
+header {
+    background-color: rgb(165, 182, 198);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fa-chevron-left {
+    margin-right: 450px;
+    color: gray;
+}
+
+.fa-chevron-right {
+    margin-left: 450px;
+    color: gray;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 14px;
+}
+
+.form-control {
+    margin-top: 17px;
+}
+
+.checkbox {
+    margin-top: 24px;
+    font-size: 15px;
+    display: flex;
+    width: 1550px;
+}
+
+section {
+    height: 2250px;
+    padding: 50px;
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    padding: 35px;
+    margin-top: 50px;
+    width: 270px;
+    height: 490px;
+}
+
+.event {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 35px;
+    width: 570px;
+    height: 990px;
+}
+
+.event img {
+    width: 500px;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.card-body {
+    text-align:justify;
+}
+
+.align {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: #ebf7ff;
+    margin-left: 60px;
+    border: 3px;
+    border-color: black;
+}
+
+footer {
+    background-color: rgb(165, 182, 198);
+    height: 72px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.validator {
+    display: inline-flex;
+    margin-left: 1200px;
+ }
+
+.fa-instagram {
+    padding-left: 12px;
+    color: black;
+}
+
+.fa-facebook {
+    padding-left: 25px;
+    color: black;
+}
+
+.fa-whatsapp {
+    padding-left: 25px;
+    color: black;
+}
+
+.form-group {
+    margin-left: 300px;
+    width: 850px;
+    padding: 35px;
+}
+
+.me-md-2 {
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+thead {
+    border: black 3px solid;
+    background-color: rgba(167, 158, 159, 0.683);
+}
+
+tbody {
+    border: black 3px solid;
+}
+
+td, th {
+    border-left:  black 1px solid;
+    }
+
+span {
+    display: flex;
+    justify-content: center;
+}
+.col-md-4 {
+    padding: 25px;
+    height: 500px;
+}
+
+.col-md-4 img {
+height: 220px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+    height: 50px;
+    }
+
+    .nav-logo {
+    display: flex;
+    margin-right:60px;
+    }
+
+    header {
+    height: 70px;
+    }
+    
+    .fa-chevron-left {
+    margin-right: 150px;
+    }
+    
+    .fa-chevron-right {
+    margin-left: 150px;
+    }
+    
+    aside {
+    height: 75px;
+    padding: 18px;
+ }
+        
+    table {
+    margin-top: -28px;
+     }
+
+    .form-inline {
+    display: flex;
+    width: 500px;
+    }
+    
+    .navbar-light{
+    margin-right: 360px;
+    }
+    section {
+    height: 7800px;
+    padding: 50px;
+    top: 5px;
+    }
+    .form-group {
+    margin-left: 20px;
+    width: 650px;
+    }
+    
+    .me-md-2 {
+    margin-top: 15px;
+    margin-left: 480px;
+    }
+    
+    footer {
+   bottom: 0;
+    height: 72px;
+    font-size: 30px;
+    }
+
+.validator {
+    display: inline-flex;
+    margin-left: 470px;
+}
+
+    table {
+    margin-top: 68px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    nav {
+    height: 40px;
+    }
+
+    .nav-link {
+    visibility: hidden;
+    }   
+
+    .nav-logo {
+    margin-top: -15px;
+    margin-left: 120px;
+    display: flex;
+    }
+
+    .fa-chevron-left {
+    margin-right: 50px;
+    }
+        
+    .fa-chevron-right {
+    margin-left: 50px;
+    }
+        
+    aside {
+    height: 75px;
+    padding: 18px;
+     }
+            
+        table {
+        margin-top: 18px;
+         }
+    
+         .checkbox {
+        visibility: hidden;
+         }
+        .form-control {
+        width: 400px;
+        }
+
+        section {
+        height: 7700px;
+
+        }
+        .form-group {
+        margin-left: -75px;
+       }
+        .form-control{
+            width: 380px;
+        }
+        .me-md-2 {
+        margin-left: 140px;
+        }
+
+        .validator {
+            visibility: hidden;
+        }
+        
+        footer {
+             height: 120px;
+             }
+}
