@@ -45,3 +45,4 @@ function paintDOM(events){
     console.log("card")
 }
 paintDOM(eventPast);
+

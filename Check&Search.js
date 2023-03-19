@@ -15,7 +15,6 @@ containerCheck.addEventListener('change',superFilter)
 
 
 
-
 submitCards(arrayEvents)
 addChecks(arrayEvents)
 
@@ -36,7 +35,7 @@ function addChecks(array){
     range.forEach(element => {
         checks += `
         <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id=${element} value=${element}>
+  <input class="form-check-input" type="checkbox" name="inlineCheckbox" id=${element} value=${element}>
   <label class="form-check-label" for=${element}>${element}</label>
 </div>
 `
@@ -52,7 +51,7 @@ function submitCards(array){
     }
 
     let cards = ''
-    array.forEach(element => {
+    array.forEach(element =>{
         cards += `
         <div  class="card" class="row row-cols-3 row-cols-sm-3 g-4">
         <img src="${element.image}" alt="${element.name} picture">

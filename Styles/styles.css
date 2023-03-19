@@ -9,28 +9,29 @@ body {
 }
 
 nav {
-    height: 65px;
-    padding: 15px;
+    height: 4.0625em;
+    padding: 0.9375em;
+    display: flexbox;
     justify-content: center;
     align-items: center;
     background-color: #ebf7ff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.7);
 }
 
 .nav-logo {
-    margin-right:550px;
+    margin-right:34.375em;
 }
 
 .nav-link {
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(142, 128, 128);
     text-transform: uppercase;
 }
 
 header {
     background-color: rgb(165, 182, 198);
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,36 +43,36 @@ div {
 }
 
 .fa-chevron-left {
-    margin-right: 450px;
+    margin-right: 28.125em;
     color: gray;
 }
 
 .fa-chevron-right {
-    margin-left: 450px;
+    margin-left: 28.125em;
     color: gray;
 }
 
 aside {
     display: flex;
     justify-content: center;
-    height: 80px;
-    padding: 14px;
+    height: 5em;
+    padding: 0.875em;
 }
 
 .form-control {
-    margin-top: 17px;
+    margin-top: 1.0625em;
 }
 
 .checkbox {
-    margin-top: 24px;
-    font-size: 15px;
+    margin-top: 1.5em;
+    font-size: 0.9375em;
     display: flex;
-    width: 1550px;
+    width: 96.875em;
 }
 
 section {
-    height: 2250px;
-    padding: 50px;
+    height: 140.625em;
+    padding: 3.125em;
 }
 
 .container {
@@ -82,31 +83,31 @@ section {
 
 .card {
     display: flex;
-    padding: 35px;
-    margin-top: 50px;
-    width: 270px;
-    height: 490px;
+    padding: 2.1875em;
+    margin-top: 3.125em;
+    width: 16.875em;
+    height: 30.625em;
 }
 
 .event {
     background-color:aliceblue;
     text-align: center;
-    padding: 35px;
-    width: 570px;
-    height: 990px;
+    padding: 2.1875em;
+    width: 35.625em;
+    height: 1100px;
 }
 
 .event img {
-    width: 500px;
-    padding: 20px;
-    margin-top: 10px;
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.7);
+    width: 31.25em;
+    padding: 1.25em;
+    margin-top: 0.625em;
+    box-shadow: -0.625em -0.625em 1.25em rgba(0, 0, 0, 0.7);
 }
 
 .card img {
-    padding: 20px;
-    margin-top: 10px;
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.7);
+    padding: 1.25em;
+    margin-top: 0.625em;
+    box-shadow: -0.625em -0.625em 1.25em rgba(0, 0, 0, 0.7);
 }
 
 .card-body {
@@ -116,53 +117,53 @@ section {
 .align {
     display: flex;
     align-items: flex-end;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 .btn{
     background-color: blueviolet;
     color: #ebf7ff;
-    margin-left: 60px;
+    margin-left: 3.75em;
     border: 3px;
     border-color: black;
 }
 
 footer {
     background-color: rgb(165, 182, 198);
-    height: 72px;
-    padding: 10px;
-    font-size: 30px;
+    height: 4.5em;
+    padding: 0.625em;
+    font-size: 1.875em;
 }
 
 .validator {
     display: inline-flex;
-    margin-left: 1200px;
+    margin-left: 1000px;
  }
 
 .fa-instagram {
-    padding-left: 12px;
+    padding-left: 0.75em;
     color: black;
 }
 
 .fa-facebook {
-    padding-left: 25px;
+    padding-left: 1.5625em;
     color: black;
 }
 
 .fa-whatsapp {
-    padding-left: 25px;
+    padding-left: 1.5625em;
     color: black;
 }
 
 .form-group {
-    margin-left: 300px;
-    width: 850px;
-    padding: 35px;
+    margin-left: 18.75em;
+    width: 53.125em;
+    padding: 2.1875em;
 }
 
 .me-md-2 {
-    margin-top: 15px;
-    margin-left: 700px;
+    margin-top: 0.9375em;
+    margin-left: 43.75em;
 }
 
 thead {
@@ -183,143 +184,93 @@ span {
     justify-content: center;
 }
 .col-md-4 {
-    padding: 25px;
-    height: 500px;
+    padding: 1.5625em;
+    height: 31.25em;
 }
 
 .col-md-4 img {
-height: 220px;
+height: 13.75em;
 }
 
-@media screen and (max-width: 768px) {
-    nav {
-    height: 50px;
-    }
-
+@media screen and (max-width: 1010px) {
     .nav-logo {
-    display: flex;
-    margin-right:60px;
+        margin-right: 50px;
     }
 
-    header {
-    height: 70px;
+    .page {
+        display: flex;
     }
-    
+
     .fa-chevron-left {
-    margin-right: 150px;
+        margin-right: 50px;
     }
-    
+
     .fa-chevron-right {
-    margin-left: 150px;
+        margin-left: 50px;
     }
-    
-    aside {
-    height: 75px;
-    padding: 18px;
- }
-        
-    table {
-    margin-top: -28px;
-     }
 
-    .form-inline {
-    display: flex;
-    width: 500px;
-    }
-    
-    .navbar-light{
-    margin-right: 360px;
-    }
     section {
-    height: 7800px;
-    padding: 50px;
-    top: 5px;
+        height: 178.125em;
     }
+
     .form-group {
-    margin-left: 20px;
-    width: 650px;
+        width: 31.25em;
     }
-    
+
     .me-md-2 {
-    margin-top: 15px;
-    margin-left: 480px;
-    }
-    
-    footer {
-   bottom: 0;
-    height: 72px;
-    font-size: 30px;
+        margin-left: 21.875em;
     }
 
-.validator {
-    display: inline-flex;
-    margin-left: 470px;
+    .validator {
+        margin-left: 600px;
+    }    
 }
 
-    table {
-    margin-top: 68px;
+@media screen and (max-width: 990px){
+    .checkbox {
+        display: block;
+        width: 46.875em;
     }
+
+    section {
+        height: 243.75em;
+    }
+
+    .validator {
+        margin-left: 400px;
+    } 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 767px) {
+    section {
+        height: 487.5em;
+    }
 
-    nav {
-    height: 40px;
+    .validator {
+        margin-left: 330px;
     }
 
     .nav-link {
-    visibility: hidden;
-    }   
+        font-size: 13px;
+    } 
+}
 
-    .nav-logo {
-    margin-top: -15px;
-    margin-left: 120px;
-    display: flex;
-    }
+@media screen and (max-width: 706px) {
+    .validator {
+        margin-left: 220px;
+    }  
 
-    .fa-chevron-left {
-    margin-right: 50px;
-    }
-        
-    .fa-chevron-right {
-    margin-left: 50px;
-    }
-        
-    aside {
-    height: 75px;
-    padding: 18px;
-     }
-            
-        table {
-        margin-top: 18px;
-         }
-    
-         .checkbox {
+    .nav-link {
+        padding: 3.5px;
+    } 
+}
+
+@media screen and (max-width: 584px) {
+    .nav-link {
         visibility: hidden;
-         }
-        .form-control {
-        width: 400px;
-        }
+    }
 
-        section {
-        height: 7700px;
-
-        }
-        .form-group {
-        margin-left: -75px;
-       }
-        .form-control{
-            width: 380px;
-        }
-        .me-md-2 {
-        margin-left: 140px;
-        }
-
-        .validator {
-            visibility: hidden;
-        }
-        
-        footer {
-             height: 120px;
-             }
+    .validator {
+        margin-left: 40px;
+    }
 }
